@@ -123,7 +123,8 @@
 					    		if (userinput.substring(i, i+1)==randNum.substring(i, i+1)) {
 					    			g++;
 					    		}
-					    		else if (userinput.substring(i, i+1) == randNum.substring((i+1)%4, (i+2)%4) || userinput.substring(i, i+1)==randNum.substring((i+2)%4, (i+3)%4) || userinput.substring(i, i+1) == randNum.substring((i+3)%4, (i+4)%4)){
+							//i was doing something much more unnecessary longer and stupid before
+					    		else if (randNum.indexOf(userinput.substring(i, i+1)) != -1){
 					    			y++;
 					    		}
 					    	}
