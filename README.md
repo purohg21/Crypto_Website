@@ -4,3 +4,4 @@ Initially in the rubric i had focused only on ctf and wanting to make it just li
 tbh i dont think the original rubric is really even viable for this project since my goals have shifted and widened since then, but i do think i did more than i thought i could in some ways but hhh idk im letting go
 hope u like itttt!!
 btw Cryptohome.html is the homepage, yea ok 👍🏽
+ok im actually going to sleep now but i designed the logo and art using piskel which is what i used for space invaders 4 years ago. im quite sure this is not what a typical readme is supposed to look like welp 
