@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>  
+<title>GameCC_Vigenere_Decrypt.html</title>
+<link rel="stylesheet" href="CryptoStyle1.css" type="text/css" />
+
+</head>
+<body>
+	<center>
+<div class="pagediv">
+
+<div class="sitetitle"> <img src="cryptohublogo2.gif"></div>
+
+
+	<div class="menudiv" align="center">
+		<div style="background-color:#6862d1; height:24px;" align="center">
+			<a href="CryptoHome.html" style="padding-right:20px;" class="linktext">Home</a>
+			<a href="Cyber.html" style="padding-right:20px;" class="linktext">CTF</a>
+			<a href="Games.html" style="padding-right:20px;" class="linktext">Games</a>
+		</div>
+	</div>
+
+	
+	<!--<div class="gametitle"> presenting </div>-->
+
+	<!--<table width="100%" border="0" cellpadding="0" cellspacing="0">
+			<td width="50%" height="300">
+				<div class="imggamediv" align="center">
+					<img src="crackthecode1.gif" height="256" width="256"  class="imgself">
+				</div>
+			</td>
+			<td width="50%" height="300">
+				<div class="imgdiv" align="center">
+					<img src="caesardecrypt.gif" height ="120"  class="imgbigself">
+				</div>
+			</td>
+	</table>-->
+	
+				 <div id = "myDiv" class="imggamediv2" align="center">
+					<img src="crackthecode1.gif" height="256" width="256" align="left" class="imgself">
+					<img src="vigeneredecryptanim.gif" height ="120" align="right" class="imgbigself"> 
+					
+					<div class="textdown"> <em> Here's the encrypted message: </em><!-- Remember, your job is to decrypt it and get it back into normal English. Good Luck! --></div> 
+					<div class="gamecipher"> Lvp drvsndtzscvfds ndtzsc niwad kvwhet hwqtklwflwpw. </div>
+					<div class="gamecaption"> The key's length is 5. <br> Feeling up for a challenge? Try decrypting this message without knowing the actual key; just its length. <br> Are You Stuck? <button class ="button1" id="buttonhide" onclick="revealKey()">REVEAL SHIFT</button> </div>
+					
+					
+					<div class="gamecaption" id="key"></div>
+					<script> 
+						function revealKey(){
+   							document.getElementById("buttonhide").style.opacity = .6; 
+   							document.getElementById("buttonhide").style.cursor = "not-allowed"; 
+   							document.getElementById("buttonhide").disabled = "disabled";
+   							document.getElementById("key").innerHTML = "The key is 'solve'.";
+						} 
+					</script>
+					
+
+					<input type = "text" id="userguess">
+					<button class="button1" onclick="checkAnswer()">SUBMIT</button>
+
+					<p id="response"></p>
+					  <script>
+					  	function checkAnswer() {
+					    var userinput, caption;
+					    userinput = document.getElementById("userguess").value;
+					    if (userinput == 'the indecipherable cipher seems pretty decipherable.' || userinput == 'The indecipherable cipher seems pretty decipherable.' 
+					    	|| userinput == 'The indecipherable cipher seems pretty decipherable' || userinput == 'the indecipherable cipher seems pretty decipherable') {
+					        alert("You cracked the code!");
+					        caption = "Boom. You're on fire!";
+					        var btn = document.createElement('input');
+    						btn.setAttribute('class', 'button'); // input element of type button
+						    btn.setAttribute('value', 'VIGENERE ENCRYPT');
+						    btn.setAttribute('onclick', "location.href='GameCC_Vigenere_Encrypt.html'");
+						    document.getElementById("myDiv").appendChild(btn);
+
+					    } 
+					    else {
+					    	alert("Welp. The code has not been cracked.");
+					        caption = "Hmmm, not quite. Try again!";
+					    }
+					    document.getElementById("response").innerHTML = caption;
+					    
+					}
+					</script>  
+
+					<a href="GameCC_Menu.html"><button class="button1">BACK TO MAIN MENU</button></a>
+					<a href="GameCC_Vigenere_Huh_Dec.html"><button class="button1">HUH?</button></a>
+				</div>
+			
+
+	<div class="menudiv" align="center">
+		<div style="background-color:#6862d1; height:24px;" align="center">
+			<a href="CryptoHome.html" style="padding-right:20px;" class="linktext">Home</a>
+			<a href="Cyber.html" style="padding-right:20px;" class="linktext">CTF</a>
+			<a href="Games.html" style="padding-right:20px;" class="linktext">Games</a>
+		</div>
+	</div>
+
+	
+</div>
+</center>
+</body>
+</html>

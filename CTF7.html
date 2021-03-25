@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>  
+<title>CTF7.html</title>
+<link rel="stylesheet" href="CryptoStyle1.css" type="text/css" />
+
+</head>
+<body>
+	<center>
+<div class="pagediv">
+<div class="sitetitle"> <img src="cryptohublogo2.gif"></div>
+
+	<div class="menudiv" align="center">
+		<div style="background-color:#6862d1; height:24px;" align="center">
+			<a href="CryptoHome.html" style="padding-right:20px;" class="linktext">Home</a>
+			<a href="Cyber.html" style="padding-right:20px;" class="linktext">CTF</a>
+			<a href="Games.html" style="padding-right:20px;" class="linktext">Games</a>
+		</div>
+	</div>
+
+	<div class="pagetitle"> CTF7 </div>
+	<div class="textleft">
+		Here's the answer to this level: the time this photo was taken (without colons, down to the second) directly folllowed by the brightness value (to the thousandths, disregard the decimal) directly folllowed by the size of the file in megapixels (disregard the decimal). <br>then put it in octal. that's the password. 
+		<br><br>
+		
+		<img src="yeet.jpeg" style="width:412px" style="height:412px"> <br> <br> yeet
+</div>
+		<!-- hint: sum of individual numbers in true creator's birth year - 6 = length-->
+
+	<div class="textdown1"> ENTER ANSWER: </div>
+	<input type = "text" id="userguess">
+					<button class="button3" id="buttonhide" onclick="checkAnswer()">SUBMIT</button>
+					<p id="response"></p>
+					  <script>
+					  	function checkAnswer() {
+					    var userinput, caption;
+					    userinput = document.getElementById("userguess").value;
+					    if (userinput == atob('MTUzNDYwNTM0MDU0NDI')) {
+					        alert("You got it!");
+					        caption = "Level 7 Complete! Congratulations; You've Reached The End of This CTF!";
+					        var btn = document.createElement('input');
+    						btn.setAttribute('class', 'button3'); // input element of type button
+						    btn.setAttribute('value', 'BACK TO LEVELS LIST');
+						    btn.setAttribute('onclick', "location.href='Cyber.html'");
+						    document.getElementById("myDiv").appendChild(btn);
+						    document.getElementById("buttonhide").style.opacity = .6; 
+   							document.getElementById("buttonhide").style.cursor = "not-allowed"; 
+   							document.getElementById("buttonhide").disabled = "disabled";
+					    } 
+					    else {
+					    	alert("You don't got it. welp.");
+					        caption = "Hmmm, not quite. Try again!";
+					    }
+					    document.getElementById("response").innerHTML = caption;
+					    
+					}
+					</script>  
+<div id = "myDiv" class="gamecaption"> </div>
+
+	
+</div>
+</center>
+</body>
+</html>

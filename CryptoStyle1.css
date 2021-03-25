@@ -1,0 +1,370 @@
+body {
+	background: #171717;
+	font-family:  "Menlo";
+	color:#1EE352;
+}
+#buttonhide{
+	border: none;
+	border-radius: 12px;
+    font-family: "Courier New";
+    background-color: #171717; 
+    color: #1EE352;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 40px 20px;
+    cursor: pointer;
+}
+
+a:link {
+  color: #1EE352;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: turquoise;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #1EE352;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.menudiv {
+	width:1000px; 
+	border-style:dashed; 
+	border-width:2px; 
+	border-color:#1e12ff; 
+	margin-top:15px; 
+	margin-bottom: 10px;
+}
+.imgdiv {
+	width:490px; 
+	height:280px; 
+	border-style:dashed; 
+	border-width:2px; 
+	border-color:#1e12ff; 
+	margin-top:15px; 
+	margin-bottom: 10px;
+}
+.imgdiv1 {
+	width:490px; 
+	height:280px; 
+	border-style:dashed; 
+	border-width:2px; 
+	border-color:#1e12ff;
+	background-color: #525252; 
+	margin-top:15px; 
+	margin-bottom: 10px;
+}
+
+.imgbigdiv {
+	width:1000px; 
+	height:450px; 
+	border-style:dashed; 
+	border-width:2px; 
+	border-color:#1e12ff; 
+	margin-top:15px; 
+	margin-bottom: 10px;
+}
+
+.imggamediv {
+	width:712px; 
+	height:712px; 
+	border-style:dashed; 
+	background-color: #525252;
+	border-width:2px; 
+	border-color:#1EE352; 
+	margin-top:15px; 
+	margin-bottom: 10px;
+}
+
+.imggamediv1 {
+	width:712px; 
+	height:812px; 
+	border-style:dashed; 
+	background-color: #525252;
+	border-width:2px; 
+	border-color:#1EE352; 
+	margin-top:15px; 
+	margin-bottom: 10px;
+}
+.imggamediv2 {
+	width:712px; 
+	height:912px; 
+	border-style:dashed; 
+	background-color: #525252;
+	border-width:2px; 
+	border-color:#1EE352; 
+	margin-top:15px; 
+	margin-bottom: 10px;
+}
+
+.imggamediv3 {
+	width:712px; 
+	height:1024px; 
+	border-style:dashed; 
+	background-color: #525252;
+	border-width:2px; 
+	border-color:#1EE352; 
+	margin-top:15px; 
+	margin-bottom: 10px;
+}
+
+.imgsmalldiv {
+	width:412px; 
+	height:412px; 
+	border-style:dashed; 
+	background-color: #171717;
+	border-width:2px; 
+	border-color:#1EE352; 
+	margin-top:15px; 
+	margin-bottom: 10px;
+}
+
+.imgtitle {
+	font-family:  "Courier New";
+	font-size:14x;
+	font-style:normal;
+	font-weight:bold;
+	text-align: center;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.imgtitle1 {
+	font-family:  "Courier New";
+	font-size:14x;
+	font-style:normal;
+	font-weight:bold;
+	text-align: center;
+	padding-top:10px;
+	padding-bottom:50px;
+}
+
+.imgself {
+	margin-top:5px;
+	margin-bottom:15px;
+}
+
+.imgbigself {
+	margin-top:80px;
+	margin-bottom:15px;
+}
+
+.pagetitle {
+	font-family: "Courier New";
+	font-size:24px;
+	font-weight:bold;
+	margin-bottom:15px;
+	text-align: left;
+}
+
+.gametitle {
+	font-family: "Courier New";
+	font-size:48px;
+	font-weight:bold;
+	margin-bottom:15px;
+	text-align: center;
+}
+
+.sitetitle {
+	font-family: "Courier New";
+	font-size:36px;
+	font-weight:bold;
+	margin-bottom:15px;
+	
+}
+.siteslogan{
+	font-family:  "Courier New";
+	font-size:18px;
+	font-weight:normal;
+	font-style:italic;
+	margin-bottom:15px;
+	color:#1EE352;
+}
+.pagediv {
+	width:1000px;
+}
+
+.imgcaption {
+	font-family: "Courier New";
+	font-size:12px;
+	font-style:normal;
+	text-align: center;
+	padding-top:0px;
+	padding-bottom:0px;
+
+}
+
+.imgcaption1 {
+	font-family: "Courier New";
+	font-size:12px;
+	font-style:normal;
+	text-align: center;
+	padding-top:60px;
+	padding-bottom:0px;
+
+}
+
+.gamecaption {
+	font-family: "Courier New";
+	font-size:24px;
+	font-style:normal;
+	text-align: center;
+	padding-top:0px;
+	padding-bottom:0px;
+
+}
+
+.gamecipher {
+	font-family: "Courier New";
+	font-size:36px;
+	font-style:normal;
+	font-weight:bold;
+	color:#171717;
+	text-align: center;
+	padding-top:0px;
+	padding-bottom:0px;
+
+}
+
+.linktext {
+	font-family: "Courier New";
+	font-size:10x;
+	font-style:normal;
+	font-weight:normal;
+	text-align: center;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.footers {
+	font-family:  "Courier New";
+	font-size:8px;
+	margin-bottom:15px;
+}
+
+.textleft {
+	text-align: left;
+}
+
+.textlefttab {
+	text-align: left;
+	margin-left: 20px;
+}
+
+.textdown {
+	font-family: "Courier New";
+	font-size:24px;
+	font-style:normal;
+	text-align: center;
+	padding-bottom:0px;
+	padding-top:300px;
+}
+
+.textdown1 {
+	font-family: "Courier New";
+	font-size:24px;
+	font-style:normal;
+	text-align: center;
+	padding-bottom:0px;
+	padding-top:15px;
+}
+.textdown2 {
+	font-family: "Courier New";
+	font-size:18px;
+	font-style:normal;
+	text-align: center;
+	padding-bottom:0px;
+	padding-top:15px;
+}
+.button {
+	border: none;
+	border-radius: 12px;
+    font-family: "Courier New";
+    background-color: #171717; 
+    color: #1EE352;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 40px 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+	background-color: #1EE352; 
+    color: #171717;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button1 {
+	border: none;
+	border-radius: 12px;
+    font-family: "Courier New";
+    background-color: #171717; 
+    color: #1EE352;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+.button1:hover {
+	background-color: #1EE352; 
+    color: #171717;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button2 {
+	border: none;
+	border-radius: 12px;
+    font-family: "Courier New";
+    background-color: #171717; 
+    color: #1EE352;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px 20px;
+    cursor: not-allowed;
+    opacity: .6;
+}
+
+.button3 {
+	border: none;
+	border-radius: 12px;
+    font-family: "Courier New";
+    background-color: #525252; 
+    color: #1EE352;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+.button3:hover {
+	background-color: #1EE352; 
+    color: #171717;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}

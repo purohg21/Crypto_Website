@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>  
+<title>CTF6.html</title>
+<link rel="stylesheet" href="CryptoStyle1.css" type="text/css" />
+
+</head>
+<body>
+	<center>
+<div class="pagediv">
+<div class="sitetitle"> <img src="cryptohublogo2.gif"></div>
+
+	<div class="menudiv" align="center">
+		<div style="background-color:#6862d1; height:24px;" align="center">
+			<a href="CryptoHome.html" style="padding-right:20px;" class="linktext">Home</a>
+			<a href="Cyber.html" style="padding-right:20px;" class="linktext">CTF</a>
+			<a href="Games.html" style="padding-right:20px;" class="linktext">Games</a>
+		</div>
+	</div>
+
+	<div class="pagetitle"> CTF6 </div>
+	<div class="textleft">
+		Even the most indecipherable of ciphers can be broken... even if it does take three hundred years. <br>
+		You could try counting words, punctuation, forming lists, searching online. Or, perhaps, the key could simply just be right <em> up </em> there...<br><br>
+		ampywpw
+</div>
+		<!--another hint: sum of individual numbers in true creator's birth year - 6 = key's length-->
+	<div class="textdown1"> ENTER ANSWER: </div>
+	<input type = "text" id="userguess">
+					<button class="button3" id="buttonhide" onclick="checkAnswer()">SUBMIT</button>
+					<p id="response"></p>
+					  <script>
+					  	function checkAnswer() {
+					    var userinput, caption;
+					    userinput = document.getElementById("userguess").value;
+					    if (userinput == atob('Y2lwaGVycw==')) {
+					        alert("You got it!");
+					        caption = "Level 6 Complete!";
+					        var btn = document.createElement('input');
+    						btn.setAttribute('class', 'button3'); // input element of type button
+						    btn.setAttribute('value', 'NEXT LEVEL');
+						    btn.setAttribute('onclick', "location.href='CTF7.html'");
+						    document.getElementById("myDiv").appendChild(btn);
+						    document.getElementById("buttonhide").style.opacity = .6; 
+   							document.getElementById("buttonhide").style.cursor = "not-allowed"; 
+   							document.getElementById("buttonhide").disabled = "disabled";
+					    } 
+					    else {
+					    	alert("You don't got it. welp.");
+					        caption = "Hmmm, not quite. Try again!";
+					    }
+					    document.getElementById("response").innerHTML = caption;
+					    
+					}
+					</script>  
+<div id = "myDiv" class="gamecaption"> </div>
+
+	
+</div>
+</center>
+</body>
+</html>

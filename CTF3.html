@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>  
+<title>CTF3.html</title>
+<link rel="stylesheet" href="CryptoStyle1.css" type="text/css" />
+
+</head>
+<body>
+	<center>
+<div class="pagediv">
+<div class="sitetitle"> <img src="cryptohublogo2.gif"></div>
+
+	<div class="menudiv" align="center">
+		<div style="background-color:#6862d1; height:24px;" align="center">
+			<a href="CryptoHome.html" style="padding-right:20px;" class="linktext">Home</a>
+			<a href="Cyber.html" style="padding-right:20px;" class="linktext">CTF</a>
+			<a href="Games.html" style="padding-right:20px;" class="linktext">Games</a>
+		</div>
+	</div>
+
+	<div class="pagetitle"> CTF3</div>
+	<div class="textleft">
+		A Simple table encodes Characters Into Integers <br> BASEd on code from way before 2o10 <br> 1110111 1100001 1110011 1110100 1101000 1001001 1110011 1100001 1101100 1101001 1010100 1110100 1101100 1100101 1101000 1100001 1110010 1000100 1100101 1110010 111111 </div>
+		
+		<div class="textdown1"> ENTER ANSWER: </div>
+		<input type = "text" id="userguess">
+					<button class="button3" id="buttonhide" onclick="checkAnswer()">SUBMIT</button>
+					<p id="response"></p>
+					  <script>
+					  	function checkAnswer() {
+					    var userinput, caption;
+					    userinput = document.getElementById("userguess").value;
+					    if (userinput == atob('d2FzdGhJc2FsaVR0bGVoYXJEZXI/')) {
+					        alert("You got it!");
+					        caption = "Level 3 Complete!";
+					        var btn = document.createElement('input');
+    						btn.setAttribute('class', 'button3'); // input element of type button
+						    btn.setAttribute('value', 'NEXT LEVEL');
+						    btn.setAttribute('onclick', "location.href='CTF4.html'");
+						    document.getElementById("myDiv").appendChild(btn);
+						    document.getElementById("buttonhide").style.opacity = .6; 
+   							document.getElementById("buttonhide").style.cursor = "not-allowed"; 
+   							document.getElementById("buttonhide").disabled = "disabled";
+
+					    } 
+					    else {
+					    	alert("You don't got it. welp.");
+					        caption = "Hmmm, not quite. Try again!";
+					    }
+					    document.getElementById("response").innerHTML = caption;
+					    
+					}
+					</script>  
+<div id = "myDiv" class="gamecaption"> </div>
+
+</div>
+</center>
+</body>
+</html>
