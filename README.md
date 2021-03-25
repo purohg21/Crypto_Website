@@ -1,2 +1,6 @@
 # Crypto_Website
-uh idk
+HI okay so 
+Initially in the rubric i had focused only on ctf and wanting to make it just like natas; the objective has shifted a lot since then. since learning how to use phaser and them telling me to run a local web server and then learning how to run/use/work with a local webserver making a few fun but not cryptography related html5 games with it to then scrapping them from the website to making and remaking levels for the ctf to thinking i should focus my time on leaarning how to do things like http authentication and using php/mysql then going on stack overflow and getting yelled at by people from 2013 for even thinking i should do so (and for many other supposedly naive and outright stupid ideas i had to implement) to making games again but solely through javascript.... this website is now ready-ish. every time i thought i was done i changed something and replaced it with another thing but i have to let go at this point since the official due date was abt two hours ago and u know... its time whatever. 
+tbh i dont think the original rubric is really even viable for this project since my goals have shifted and widened since then, but i do think i did more than i thought i could in some ways but hhh idk im letting go
+hope u like itttt!!
+btw Cryptohome.html is the homepage, yea ok 👍🏽
