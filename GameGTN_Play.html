@@ -79,7 +79,7 @@
 					var ctr = 0;
 					</script>
 				
-					<input type="text" id='userguess' maxlength="4" oncopy="return false" onpaste="return false" onkeyup='return keypressfunc()'>
+					<input type="text" id='userguess' maxlength="4" oncopy="return false" onpaste="return false" onkeypress='return ((event.charCode >= 48 && event.charCode <= 57) || (event.charCode == 8))' onkeyup='return keypressfunc()'>
 
 					<button id = "btnsubmit" class="button2" disabled onclick="checkAnswer()">SUBMIT</button>
 				    
